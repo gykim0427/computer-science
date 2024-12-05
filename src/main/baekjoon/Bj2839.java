@@ -8,6 +8,7 @@ public class Bj2839 {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
+		int answer = 0;
 	}
 
 }
