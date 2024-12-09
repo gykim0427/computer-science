@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class Bj2839 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		for (String arg : args) {
+			System.out.println("sss : " + arg);
+		}
 		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
 		int answer = 0;
 		
 		if (n==3) {
