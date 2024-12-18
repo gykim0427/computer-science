@@ -8,6 +8,13 @@ public class Bj2193 {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
+		int answer = 0;
+		
+		if (n==1 || n==2) {
+			answer = 1;
+		} 
+		
+		
+		System.out.println(answer);
 	}
-
 }
