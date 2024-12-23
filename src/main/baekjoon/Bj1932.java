@@ -13,7 +13,7 @@ public class Bj1932 {
 		int[][] arr = new int[n][];
 		
 		for (int i=0; i<n; i++) {
-			 
+			
 		}
 	}
 }
