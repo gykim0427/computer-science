@@ -3,6 +3,7 @@ package main.baekjoon;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Bj11047 {
 
@@ -19,10 +20,28 @@ public class Bj11047 {
 		for (int i=0; i<n; i++) {
 			int unit = Integer.parseInt(br.readLine());
 			
-			if (unit) {
-				
+			if (unit <= k) {
+				arrList.add(unit);
 			}
 		}
+		
+		Collections.sort(arrList);
+		Collections.reverse(arrList);
+		
+		int sub = k;
+		int cnt = 0;
+		
+		for (int i=0; i<arrList.size(); i++) {
+			int a = sub / arrList.get(i);
+			sub -= (a * arrList.get(i));
+			cnt += a;
+			
+			if (sub == 0) {
+				break;
+			}
+		}
+		System.out.println(cnt);
+			
 	}
 
 }
