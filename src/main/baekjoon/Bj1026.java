@@ -2,7 +2,8 @@ package main.baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Bj1026 {
 
@@ -11,19 +12,29 @@ public class Bj1026 {
 		
 		int n = Integer.parseInt(br.readLine());
 		
-		ArrayList<Integer> arrListA = new ArrayList<>();
-		ArrayList<Integer> arrListB = new ArrayList<>();
+		Integer[] a = new Integer[n];
+		Integer[] b = new Integer[n];
 		
-		int a = Integer.parseInt(br.readLine());
-		int b = Integer.parseInt(br.readLine());
-				
+		String strA = br.readLine();
+		String strB = br.readLine();
+		
+		String[] strArrA = strA.split(" ");
+		String[] strArrB = strB.split(" ");
+		
 		for (int i=0; i<n; i++) {
-			a
-			b
-			
-			arrListA.add(a);
-			arrListB.add(b);
+			a[i] = Integer.parseInt(strArrA[i]); 
+			b[i] = Integer.parseInt(strArrB[i]);
 		}
+		
+		Arrays.sort(a);
+		Arrays.sort(b, Collections.reverseOrder());
+		
+		int s = 0;
+		
+		for (int i=0; i<n; i++) {
+			s += a[i] * b[i];
+		}
+		
+		System.out.println(s);
 	}
-
 }
