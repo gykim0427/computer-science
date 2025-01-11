@@ -25,8 +25,6 @@ public class Bj1316 {
 			for (int j=0; j<str.length(); j++) {
 				int now = str.charAt(j);
 				
-				System.out.println("prev : " + prev + " || now : "+ now + " || blArr : " + blArr[now - 'a']);
-				
 				if (prev != now) {
 					if (!blArr[now - 'a']) {
 						blArr[now - 'a'] = true;
