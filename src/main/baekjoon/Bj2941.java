@@ -13,18 +13,13 @@ public class Bj2941 {
 
 		String[] croArr = croStr.split(",");
 		
-		int cnt = 0;
-		
-		// **
-		for (int i=0; i<croArr.length;i++) {
-			for (int j=0; j<str.length();j++) {
-				if (str.contains(croArr[i])) {
-					cnt++;
-				}
+		for (String s : croArr) {
+			if (str.contains(s)) {
+				str = str.replace(s, "*");
 			}
 		}
 		
-		System.out.println(cnt);
+		System.out.println(str.length());
 	}
 
 }
