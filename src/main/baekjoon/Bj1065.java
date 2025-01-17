@@ -12,14 +12,23 @@ public class Bj1065 {
 		
 		int n = Integer.parseInt(str);
 		int cnt = 0;
-		
-		for (int i=0; i<str.length(); i++) {
-			str.charAt(i);
-		}
+		int firstInterval = 0;
+		int secondInterval = 0;
 		
 		for (int i=1; i<=n; i++) {
-			if (i>0 && i<100) {
+			if (i > 0 && i < 100) {
 				cnt++;
+			} if (i > 99) {
+				int third = i/100;
+				int second = (i - third*100)/10;
+				int first = i - third*100 - second*10;
+				
+				firstInterval = third - second;
+				secondInterval = second - first;
+				
+				if (firstInterval == secondInterval) {
+					 cnt++;
+				}
 			}
 		}
 		
