@@ -13,6 +13,12 @@ public class Bj1018 {
 		
 		strArr = str.split(" ");	
 		
+		int n = Integer.parseInt(strArr[0]);
+		int m = Integer.parseInt(strArr[1]);
+		
+		for (int i=0; i<n; i++) {
+			br.readLine();
+		}
 	}
 
 }
