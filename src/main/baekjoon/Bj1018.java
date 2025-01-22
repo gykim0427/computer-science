@@ -5,9 +5,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Bj1018 {
-
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	
 	public static void main(String[] args) throws Exception {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = Integer.parseInt(st.nextToken());
@@ -23,7 +23,7 @@ public class Bj1018 {
 			}
 		}
 		
-		int result = Integer.MAX_VALUE;
+		int minNum = Integer.MAX_VALUE;
 		
 		for (int i=0; i<=n-8; i++) {
             for (int j=0; j<=m-8; j++) {
@@ -52,28 +52,25 @@ public class Bj1018 {
                 int rectPattern1 = 0;
                 int rectPattern2 = 0;
                 
-                for (int i=x; i<x+8; i++) {
-                    for (int j=y; j<y+8; j++) {
-                        
-                        // arr 배열에서의 현재 위치의 값과 pattern1 배열에서 동일한 위치에 있는 값을 비교
-                        if (arr[i][j] != pattern1[i-x][j-y]) {
+                for (int k=i; k<i+8; k++) {
+                    for (int l=j; l<j+8; l++) {
+                        if (arr[k][l] != pattern1[i-k][j-l]) {
                             rectPattern1++;
                         }
 
-                        // arr 배열에서의 현재 위치의 값과 pattern2 배열에서 동일한 위치에 있는 값을 비교
-                        if (arr[i][j] != pattern2[i-x][j-y]) {
+                        if (arr[k][l] != pattern2[i-k][j-l]) {
                             rectPattern2++;
                         }
                     }
                 }
                 
-                Math.min(rectPattern1, rectPattern2);
+                int rects = Math.min(rectPattern1, rectPattern2);
                 
-                result = Math.min(result, rects); 
+                minNum = Math.min(minNum, rects); 
             }
         }
 		
-		System.out.println(result);
+		System.out.println(minNum);
 	}
 
 }
