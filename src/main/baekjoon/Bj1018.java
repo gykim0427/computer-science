@@ -4,10 +4,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// hard
 public class Bj1018 {
-	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	
 	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = Integer.parseInt(st.nextToken());
@@ -54,11 +55,11 @@ public class Bj1018 {
                 
                 for (int k=i; k<i+8; k++) {
                     for (int l=j; l<j+8; l++) {
-                        if (arr[k][l] != pattern1[i-k][j-l]) {
+                        if (arr[k][l] != pattern1[k-i][l-j]) {
                             rectPattern1++;
                         }
 
-                        if (arr[k][l] != pattern2[i-k][j-l]) {
+                        if (arr[k][l] != pattern2[k-i][l-j]) {
                             rectPattern2++;
                         }
                     }
