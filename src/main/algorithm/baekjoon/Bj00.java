@@ -1,4 +1,4 @@
-package main.baekjoon;
+package main.algorithm.baekjoon;
 
 public class Bj00 {
 

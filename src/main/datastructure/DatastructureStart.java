@@ -1,9 +1,9 @@
-package main.programmers;
+package main.datastructure;
 
-public class ProgrammersStart {
+public class DatastructureStart {
 
 	public static void main(String[] args) {
-		System.out.println("Programmers Start");
+		System.out.println("Datastructure Start");
 		
 		int a = 10;
 		
