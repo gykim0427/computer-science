@@ -6,8 +6,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-import sun.util.locale.StringTokenIterator;
-
 public class Bj10814 {
 
 	public static void main(String[] args) throws Exception {
