@@ -10,7 +10,8 @@ public class Bj6603 {
 		
 		String str = br.readLine();
 		
-		Integer[] a = Integer.parseInt(str.split(" ")); 
+		Integer[] arr = int[];
+		Arrays[] a = str.split(" ");
 	}
 	
 }
