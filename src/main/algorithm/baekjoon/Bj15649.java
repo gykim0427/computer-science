@@ -11,11 +11,14 @@ public class Bj15649 {
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int[] nArr = new int[Integer.parseInt(st.nextToken())];
-		
-		for (int i : nArr) {
-			System.out.println(nArr[i]);
-		}
+		int n = Integer.parseInt(st.nextToken());
+		int m = Integer.parseInt(st.nextToken());
+			
+		back(0);
+	}
+	
+	public static boolean back(int a) {
+		return true;
 	}
 
 }
