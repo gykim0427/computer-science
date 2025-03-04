@@ -9,15 +9,15 @@ public class Bj1914 {
 		
 		int n = sc.nextInt();
 		
-		for (int i=0; i<n; i++) {
-			back(0);
+		if (n <= 20) {
+			hanoi(n, 1, 2, 3);
 		}
-		
+			
 		System.out.println(n);
 	}
 	
-	public static void back(int a) {
-		return;
+	public static void hanoi(int n, int from, int tmp, int to) {
+		hanoi(n-1, from, to, tmp);
 	}
 
 }
