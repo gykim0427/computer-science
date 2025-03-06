@@ -1,5 +1,6 @@
 package main.algorithm.baekjoon;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Bj1914 {
@@ -9,15 +10,25 @@ public class Bj1914 {
 		
 		int n = sc.nextInt();
 		
+		BigInteger cnt =  BigInteger.valueOf(2).pow(n).subtract(BigInteger.ONE);
+		
+		System.out.println(cnt);
+		
 		if (n <= 20) {
 			hanoi(n, 1, 2, 3);
 		}
-			
-		System.out.println(n);
 	}
 	
-	public static void hanoi(int n, int from, int tmp, int to) {
-		hanoi(n-1, from, to, tmp);
+	public static void hanoi(int n, int start, int mid, int end) {
+        if (n == 1) {
+            System.out.println(start + " " + end);
+            return;
+        }
+		hanoi(n-1, start, end, mid);
+		
+		System.out.println(start + " " + end);
+		
+		hanoi(n-1, mid, start, end);
 	}
 
 }
