@@ -3,6 +3,7 @@ package main.algorithm.baekjoon;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+//hard
 public class Bj1914 {
 
 	public static void main(String[] args) {
