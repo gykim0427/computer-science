@@ -8,22 +8,53 @@ import java.util.StringTokenizer;
 
 public class BJ10866 {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		StringTokenizer st = new StringTokenizer(System.in);
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int n = sc.nextInt();
+		int n = Integer.parseInt(br.readLine());
 		
-		String str = ""; 
-		
-		switch (str) {
-		
-		case "push_back":
+		for (int i=0; i<n; i++) {
+			String[] s = br.readLine().split(" ");
 			
-		case "":
-		
-		break;
+			switch (s[0]) {
+				case "push_front": {
+					
+					break;
+				}
+					
+				case "push_back": {
+				
+					break;
+				}
+				
+				case "pop_back": {
+					
+					break;
+				}
+				
+				case "size": {
+					
+					break;
+				}
+				
+				case "empty": {
+					
+					break;
+				}
+				
+				case "front": {
+					
+					break;
+				}
+				
+				case "back": {
+					
+					break;
+				}
+			}
 		}
+		
+
 		
 	}
 
