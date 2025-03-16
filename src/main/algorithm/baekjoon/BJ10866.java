@@ -70,29 +70,49 @@ public class BJ10866 {
 				}
 				
 				case "size": {
-					
+					sb.append(size).append('\n');
 					break;
 				}
 				
 				case "empty": {
+					int m = 0;
+					
+					if(size == 0) {
+						m = 1;
+					}
+					
+					sb.append(m).append('\n');
 					
 					break;
 				}
 				
 				case "front": {
+					int m = 0;
+					
+					if(size == 0) {
+						m = -1;
+					}
+					
+					sb.append(m).append('\n');
 					
 					break;
 				}
 				
 				case "back": {
+					int m = 0;
+					
+					if(size == 0) {
+						m = -1;
+					}
+					m = deque[back];
+					
+					sb.append(m).append('\n');
 					
 					break;
 				}
 			}
 		}
-		
 
-		
+		System.out.println(sb);
 	}
-
 }
