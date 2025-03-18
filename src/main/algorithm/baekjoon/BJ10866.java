@@ -7,112 +7,128 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class BJ10866 {
-	static int front = 0;
-	static int back = 0;
+	static int front = 10000;
+	static int back = 10000;
 	static int size = 0;
-	static int[] deque = new int[10000];
+	static int[] deque = new int[20001];
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
-		int n = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine());
 		
-		for (int i=0; i<n; i++) {
+		for(int i = 0; i < N; i++) {
 			String[] s = br.readLine().split(" ");
 			
-			switch (s[0]) {
-				case "push_front": {
-					deque[front] = Integer.parseInt(s[1]);
-					front = (front - 1 + 10000) % 10000;
-					size++;
+			switch(s[0]) {
+			
+				case "push_front" : {
+					push_front(Integer.parseInt(s[1]));
 					break;
 				}
-					
-				case "push_back": {
-					back = (back + 1) % 10000;
-					size++;
-					deque[back] = Integer.parseInt(s[1]);			
+				
+				case "push_back" : {
+					push_back(Integer.parseInt(s[1]));
 					break;
 				}
 				
 				case "pop_front" : {
-					int m = 0;
-					
-					if (size == 0) {
-						m = -1;
-					} 
-					
-					int ret = deque[(front + 1) % 10000];
-					front = (front + 1) % 10000;
-					size--;	
-					m = ret;
-							
-					sb.append(m).append('\n');
-					
+					sb.append(pop_front()).append('\n');
 					break;
 				}
 				
-				case "pop_back": {
-					int m = 0;
-					
-					if (size == 0) {
-						m = -1;
-					} 
-					int ret = deque[back];
-					back = (back - 1 + 10000) % 10000;
-					size--;
-					m = ret;
-					
-					sb.append(m).append('\n');
-					
+				case "pop_back" : {
+					sb.append(pop_back()).append('\n');
 					break;
 				}
 				
-				case "size": {
-					sb.append(size).append('\n');
+				case "size" : {
+					sb.append(size()).append('\n');
 					break;
 				}
 				
-				case "empty": {
-					int m = 0;
-					
-					if(size == 0) {
-						m = 1;
-					}
-					
-					sb.append(m).append('\n');
-					
+				case "empty" : {
+					sb.append(empty()).append('\n');
 					break;
 				}
 				
-				case "front": {
-					int m = 0;
-					
-					if(size == 0) {
-						m = -1;
-					}
-					
-					sb.append(m).append('\n');
-					
+				case "front" : {
+					sb.append(front()).append('\n');
 					break;
 				}
 				
-				case "back": {
-					int m = 0;
-					
-					if(size == 0) {
-						m = -1;
-					}
-					m = deque[back];
-					
-					sb.append(m).append('\n');
-					
+				case "back" : {
+					sb.append(back()).append('\n');
 					break;
 				}
 			}
+			
 		}
-
 		System.out.println(sb);
+	}
+		
+	
+	static void push_front(int val) {
+		// 원소를 먼저 넣은 뒤 front을 감소시킨다.
+		deque[front] = val;
+		front--;
+		size++;
+	}
+	
+	static void push_back(int val) {
+		
+		back++;
+		size++;
+		deque[back] = val;
+	}
+	
+	static int pop_front() {
+		if (size == 0) {
+			return -1;
+		} 
+		/*
+		 *  front + 1이 front 원소이므로 해당 원소를 임시 변수에 둔 뒤 
+		 *  front 을 +1 증가시킨다.
+		 */
+		int ret = deque[front + 1];
+		front++;
+		size--;	
+		return ret;
+	}
+	
+	static int pop_back() {
+		if (size == 0) {
+			return -1;
+		} 
+		int ret = deque[back];
+		back--;
+		size--;
+		return ret;
+	}
+	
+	static int size() {
+		return size;
+	}
+	
+	static int empty() {
+		if(size == 0) {
+			return 1;
+		}
+		return 0;
+	}
+	
+	static int front() {
+		if(size == 0) {
+			return -1;
+		}
+		return deque[front + 1];
+	}
+	
+	static int back() {
+		if(size == 0) {
+			return -1;
+		}
+		return deque[back];
 	}
 }
