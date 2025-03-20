@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+//hard
 public class BJ10866 {
 	static int front = 10000;
 	static int back = 10000;
