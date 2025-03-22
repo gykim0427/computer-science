@@ -60,5 +60,4 @@ public class Bj10845 {
 			}
 		}
 	}
-
 }
