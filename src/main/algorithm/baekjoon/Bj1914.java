@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 //hard
+// tistory writing 1
 public class Bj1914 {
 
 	public static void main(String[] args) {

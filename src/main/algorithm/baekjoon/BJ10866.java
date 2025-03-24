@@ -7,6 +7,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 //hard
+// tistory writing 2
 public class BJ10866 {
 	static int front = 10000;
 	static int back = 10000;
