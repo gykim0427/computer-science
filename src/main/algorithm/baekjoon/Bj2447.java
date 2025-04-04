@@ -44,9 +44,11 @@ public class Bj2447 {
 		
 		int size = n/3;
 		int count = 0;
+		
 		for (int i=x; i<x+n; i+=size) {
 			for (int j=y; j<y+n; j+=size) {
 				count++;
+				
 				if (count == 5) {
 					recursion(i, j, size, true);
 				} else {
