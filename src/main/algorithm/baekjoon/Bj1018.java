@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 
 // hard
 public class Bj1018 {
+	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

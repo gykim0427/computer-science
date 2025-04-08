@@ -3,7 +3,7 @@ package main.algorithm.baekjoon;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-//hard
+// hard
 // tistory writing 1
 public class Bj1914 {
 

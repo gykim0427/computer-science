@@ -5,11 +5,6 @@ import java.io.InputStreamReader;
 
 public class Bj1316 {
 
-	/**
-	 * @param args
-	 * @throws Exception
-	 * @Needs review
-	 */
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
