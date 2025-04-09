@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 //hard
-//tistory writing 4
+//tistory writing 3
 public class Bj1780 {
 
 	public static void main(String[] args) throws Exception {
