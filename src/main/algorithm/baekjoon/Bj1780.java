@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //hard
-//tistory writing 3
+//tistory writing 2
 public class Bj1780 {
 
 	public static void main(String[] args) throws Exception {

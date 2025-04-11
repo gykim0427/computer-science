@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 // hard
-// tistory writing 2
+// tistory writing 1
 public class Bj2447 {
 	static char[][] arr;
 	
