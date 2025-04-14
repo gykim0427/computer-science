@@ -22,7 +22,7 @@ public class Bj10773 {
                 a[position] = m;
             }
         }
-
+        
         for (int j=0;j<=position;j++) {
             sum = sum + a[j];
         }
