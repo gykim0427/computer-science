@@ -35,5 +35,4 @@ public class Bj1780 {
 		
 		return;
 	}
-
 }

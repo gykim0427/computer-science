@@ -28,6 +28,5 @@ public class Bj10773 {
         }
 
         System.out.println(sum);
-}
-
+	}
 }

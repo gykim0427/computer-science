@@ -40,8 +40,7 @@ public class Bj11047 {
 				break;
 			}
 		}
-		System.out.println(cnt);
-			
+		
+		System.out.println(cnt);	
 	}
-
 }

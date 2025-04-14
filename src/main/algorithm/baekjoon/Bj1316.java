@@ -36,8 +36,7 @@ public class Bj1316 {
 				cnt++;
 			}
 		}
-		System.out.println(cnt);
 		
+		System.out.println(cnt);
 	}
-
 }

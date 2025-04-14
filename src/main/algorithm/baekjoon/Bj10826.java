@@ -21,5 +21,4 @@ public class Bj10826 {
 		
 		System.out.println(bi[n]);
 	}
-
 }

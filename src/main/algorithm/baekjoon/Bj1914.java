@@ -31,5 +31,4 @@ public class Bj1914 {
 		
 		hanoi(n-1, mid, start, end);
 	}
-
 }

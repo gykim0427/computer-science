@@ -48,5 +48,4 @@ public class Bj15649 {
 			}
 		}
 	}
-
 }
