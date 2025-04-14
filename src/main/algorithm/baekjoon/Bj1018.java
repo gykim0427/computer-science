@@ -74,5 +74,4 @@ public class Bj1018 {
 		
 		System.out.println(minNum);
 	}
-
 }
