@@ -6,7 +6,6 @@ import java.util.StringTokenizer;
 
 // hard
 public class Bj15649 {
-
 	public static int[] arr;
 	public static boolean[] visit;
 	public static StringBuilder sb = new StringBuilder();
@@ -48,4 +47,5 @@ public class Bj15649 {
 			}
 		}
 	}
+	
 }

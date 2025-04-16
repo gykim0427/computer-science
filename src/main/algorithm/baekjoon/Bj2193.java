@@ -21,4 +21,5 @@ public class Bj2193 {
 		
 		System.out.println(dp[n]);
 	}
+	
 }

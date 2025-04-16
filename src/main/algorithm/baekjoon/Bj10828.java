@@ -17,6 +17,7 @@ public class Bj10828 {
 			String[] strArr = br.readLine().split(" ");
 			
 			switch (strArr[0]) {
+			
 				case "push" :
 					int x = Integer.parseInt(strArr[1]);
 					stack.push(x);
@@ -45,7 +46,9 @@ public class Bj10828 {
 						System.out.println("-1");
 					}
         			break;
+        			
 			}
 		}
 	}
+	
 }

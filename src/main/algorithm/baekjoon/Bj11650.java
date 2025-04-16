@@ -29,4 +29,5 @@ public class Bj11650 {
 			System.out.println(arr[i][0] + " " + arr[i][1]);
 		}
 	}
+	
 }

@@ -13,6 +13,7 @@ public class Bj1316 {
 		
 		for (int i=0; i<n; i++) {
 			String str = br.readLine();
+			
 			int prev = 0;
 			boolean[] blArr = new boolean[26];
 			boolean bl = false;
@@ -39,4 +40,5 @@ public class Bj1316 {
 		
 		System.out.println(cnt);
 	}
+	
 }

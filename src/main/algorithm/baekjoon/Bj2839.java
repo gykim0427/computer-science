@@ -32,4 +32,5 @@ public class Bj2839 {
         
 		System.out.println(answer);
 	}
+	
 }

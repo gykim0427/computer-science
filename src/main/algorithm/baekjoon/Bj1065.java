@@ -34,4 +34,5 @@ public class Bj1065 {
 		
 		System.out.println(cnt);
 	}
+	
 }

@@ -31,4 +31,5 @@ public class Bj1932 {
 		
 		System.out.println(arr[0][0]);
 	}
+	
 }

@@ -44,4 +44,5 @@ public class Bj11047 {
 		
 		System.out.println(cnt);	
 	}
+	
 }

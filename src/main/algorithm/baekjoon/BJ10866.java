@@ -63,9 +63,9 @@ public class BJ10866 {
 					sb.append(back()).append('\n');
 					break;
 				}
-			}
-			
+			}	
 		}
+		
 		System.out.println(sb);
 	}
 		
@@ -126,4 +126,5 @@ public class BJ10866 {
 		}
 		return deque[back];
 	}
+	
 }

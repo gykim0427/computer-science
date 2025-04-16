@@ -21,4 +21,5 @@ public class Bj2941 {
 		
 		System.out.println(str.length());
 	}
+	
 }

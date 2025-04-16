@@ -18,45 +18,46 @@ public class Bj10845 {
 			String[] strArr = br.readLine().split(" ");
 			
 			switch (strArr[0]) {
-			case "push" :
-				int x = Integer.parseInt(strArr[1]);
-				queue.offer(x);
-				break;
-			case "pop" :
-				if (!queue.isEmpty()) {
-					System.out.println(queue.poll());
-				} else {
-					System.out.println("-1");
-				}
-				break;
-			case "size" :
-				System.out.println(queue.size());
-				break;
-			case "empty" :
-				if (!queue.isEmpty()) {
-					System.out.println("0");
-				} else {
-					System.out.println("1");
-				}
-				break;
-			case "front" :
-				if (!queue.isEmpty()) {
-					System.out.println(queue.peek());
-				} else {
-					System.out.println("-1");
-				}
-				break;
-			case "back" :
-				if (!queue.isEmpty()) {
-					int lastElement = 0;
-					for (int element : queue) {
-						lastElement = element;
+				
+				case "push" :
+					int x = Integer.parseInt(strArr[1]);
+					queue.offer(x);
+					break;
+				case "pop" :
+					if (!queue.isEmpty()) {
+						System.out.println(queue.poll());
+					} else {
+						System.out.println("-1");
 					}
-					System.out.println(lastElement);
-				} else {
-					System.out.println("-1");
-				}
-				break;
+					break;
+				case "size" :
+					System.out.println(queue.size());
+					break;
+				case "empty" :
+					if (!queue.isEmpty()) {
+						System.out.println("0");
+					} else {
+						System.out.println("1");
+					}
+					break;
+				case "front" :
+					if (!queue.isEmpty()) {
+						System.out.println(queue.peek());
+					} else {
+						System.out.println("-1");
+					}
+					break;
+				case "back" :
+					if (!queue.isEmpty()) {
+						int lastElement = 0;
+						for (int element : queue) {
+							lastElement = element;
+						}
+						System.out.println(lastElement);
+					} else {
+						System.out.println("-1");
+					}
+					break;
 			}
 		}
 	}
