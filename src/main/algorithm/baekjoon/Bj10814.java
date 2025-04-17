@@ -23,6 +23,7 @@ public class Bj10814 {
 		}
 		
 		Arrays.sort(arr, new Comparator<String[]>() {
+			
 			@Override
 			public int compare(String[] s1, String[] s2) {
 				if (s1[0]==s2[0]) {
