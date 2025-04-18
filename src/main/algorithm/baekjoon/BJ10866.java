@@ -88,7 +88,8 @@ public class BJ10866 {
 		}
 		int ret = deque[front + 1];
 		front++;
-		size--;	
+		size--;
+		
 		return ret;
 	}
 	
@@ -99,6 +100,7 @@ public class BJ10866 {
 		int ret = deque[back];
 		back--;
 		size--;
+		
 		return ret;
 	}
 	

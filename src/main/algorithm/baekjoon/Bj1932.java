@@ -11,6 +11,7 @@ public class Bj1932 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
+		
 		int[][] arr = new int[n][];
 		
 		for (int i=0; i<n; i++) {
