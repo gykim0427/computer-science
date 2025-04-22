@@ -26,7 +26,7 @@ public class Bj10814 {
 			
 			@Override
 			public int compare(String[] s1, String[] s2) {
-				if (s1[0]==s2[0]) {
+				if (s1[0] == s2[0]) {
 					return 1;
 				} else {
 					return Integer.parseInt(s1[0]) - Integer.parseInt(s2[0]);
