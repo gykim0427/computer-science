@@ -46,7 +46,6 @@ public class Bj10828 {
 						System.out.println("-1");
 					}
         			break;
-        			
 			}
 		}
 	}
