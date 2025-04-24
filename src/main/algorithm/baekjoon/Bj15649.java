@@ -29,9 +29,9 @@ public class Bj15649 {
 	public static void dfs(int N, int M, int depth) {
 		if (depth == M) {
 			for (int val : arr) {
-				sb.append(val).append(' ');
+				sb.append(val).append(" ");
 			}
-			sb.append('\n');
+			sb.append("\n");
 			
 			return;
 		}
@@ -47,5 +47,4 @@ public class Bj15649 {
 			}
 		}
 	}
-	
 }

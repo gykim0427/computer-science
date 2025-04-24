@@ -40,6 +40,5 @@ public class Bj1316 {
 		}
 		
 		System.out.println(cnt);
-	}
-	
+	}	
 }
