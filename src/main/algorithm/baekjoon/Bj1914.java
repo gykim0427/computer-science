@@ -31,6 +31,5 @@ public class Bj1914 {
 		System.out.println(start + " " + end);
 		
 		hanoi(n - 1, mid, start, end);
-	}
-	
+	}	
 }
