@@ -17,7 +17,7 @@ public class Bj1932 {
 		for (int i=0; i<n; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			
-			arr[i] = new int[i + 1];
+			arr[i] = new int[i+1];
 			
 			for (int j=0; j<=i; j++) {
 				arr[i][j] = Integer.parseInt(st.nextToken());
@@ -32,5 +32,4 @@ public class Bj1932 {
 		
 		System.out.println(arr[0][0]);
 	}
-	
 }
