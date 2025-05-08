@@ -10,6 +10,7 @@ public class Bj2193 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
+		
 		long[] dp = new long[n+1];
 		
 		dp[0] = 0;
@@ -21,4 +22,5 @@ public class Bj2193 {
 		
 		System.out.println(dp[n]);
 	}
+	
 }

@@ -7,9 +7,9 @@ import java.util.StringTokenizer;
 // hard
 public class Bj6603 {
 	static int n; 
+	
 	static int[] arr;
 	static int[] result;
-	
 	static boolean[] visit;
 	
 	static StringBuilder sb = new StringBuilder();
@@ -64,4 +64,5 @@ public class Bj6603 {
             }
         }
     }
+    
 }

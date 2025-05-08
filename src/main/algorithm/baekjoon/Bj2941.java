@@ -10,7 +10,6 @@ public class Bj2941 {
 		
 		String str = br.readLine();
 		String croStr = "c=,c-,dz=,d-,lj,nj,s=,z=";
-
 		String[] croArr = croStr.split(",");
 		
 		for (String s : croArr) {
@@ -21,5 +20,4 @@ public class Bj2941 {
 		
 		System.out.println(str.length());
 	}
-
 }

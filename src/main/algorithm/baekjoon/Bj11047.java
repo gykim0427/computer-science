@@ -33,6 +33,7 @@ public class Bj11047 {
 		
 		for (int i=0; i<arrList.size(); i++) {
 			int a = sub / arrList.get(i);
+			
 			sub -= (a * arrList.get(i));
 			cnt += a;
 			
@@ -40,8 +41,8 @@ public class Bj11047 {
 				break;
 			}
 		}
-		System.out.println(cnt);
-			
+		
+		System.out.println(cnt);	
 	}
-
+	
 }

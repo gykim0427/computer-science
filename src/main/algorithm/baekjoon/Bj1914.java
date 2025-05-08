@@ -25,11 +25,11 @@ public class Bj1914 {
             System.out.println(start + " " + end);
             return;
         }
-		hanoi(n-1, start, end, mid);
+        
+        hanoi(n - 1, start, end, mid);
 		
 		System.out.println(start + " " + end);
 		
-		hanoi(n-1, mid, start, end);
-	}
-
+		hanoi(n - 1, mid, start, end);
+	}	
 }

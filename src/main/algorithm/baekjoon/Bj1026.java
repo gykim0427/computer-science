@@ -37,4 +37,5 @@ public class Bj1026 {
 		
 		System.out.println(s);
 	}
+	
 }

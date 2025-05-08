@@ -23,6 +23,7 @@ public class Bj2447 {
 			bw.write(arr[i]);
 			bw.write("\n");
 		}
+		
 		bw.flush();
 		bw.close();
 	}
