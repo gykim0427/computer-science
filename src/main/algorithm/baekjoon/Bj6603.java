@@ -39,6 +39,7 @@ public class Bj6603 {
 			
 			sb.append("\n");
 		}
+		
 		System.out.println(sb);	
 	}
 	
