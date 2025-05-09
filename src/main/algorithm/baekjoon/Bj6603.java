@@ -22,7 +22,7 @@ public class Bj6603 {
 			
 			n = Integer.parseInt(st.nextToken());
 			
-			if (n==0) {
+			if (n == 0) {
 				break;
 			}
 			
