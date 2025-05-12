@@ -39,7 +39,7 @@ public class Bj6603 {
 			
 			sb.append("\n");
 		}
-		
+		 
 		System.out.println(sb);	
 	}
 	
@@ -50,6 +50,7 @@ public class Bj6603 {
             }
             
             sb.append("\n");
+            
             return;
         }
 
