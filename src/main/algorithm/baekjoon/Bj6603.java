@@ -65,5 +65,4 @@ public class Bj6603 {
             }
         }
     }
-    
 }
