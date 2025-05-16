@@ -30,5 +30,4 @@ public class Bj7568 {
         	System.out.print(rank + " ");
         }
 	}
-	
 }
