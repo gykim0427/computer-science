@@ -3,7 +3,6 @@ package main.algorithm.baekjoon;
 import java.util.Scanner;
 
 public class Bj2839 {
-
 	public static void main(String[] args) {
 		for (String arg : args) {
 			System.out.println("sss : " + arg);
@@ -32,5 +31,4 @@ public class Bj2839 {
         
 		System.out.println(answer);
 	}
-	
 }
