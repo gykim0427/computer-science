@@ -35,11 +35,13 @@ public class Bj2447 {
 					arr[i][j] = ' ';
 				}
 			}
+			
 			return;
 		}
 		
 		if (n == 1) {
 			arr[x][y] = '*';
+			
 			return;
 		}
 		
