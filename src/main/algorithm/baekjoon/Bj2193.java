@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Bj2193 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
@@ -22,5 +21,4 @@ public class Bj2193 {
 		
 		System.out.println(dp[n]);
 	}
-	
 }
