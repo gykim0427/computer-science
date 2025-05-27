@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 // hard
 public class Bj1914 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
