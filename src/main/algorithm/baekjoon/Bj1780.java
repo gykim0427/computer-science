@@ -7,7 +7,6 @@ import java.util.StringTokenizer;
 //hard
 //tistory writing 1
 public class Bj1780 {
-
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -35,5 +34,4 @@ public class Bj1780 {
 		
 		return;
 	}
-	
 }
