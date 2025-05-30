@@ -12,11 +12,11 @@ public class Bj1316 {
 		
 		for (int i=0; i<n; i++) {
 			String str = br.readLine();
-			
-			int prev = 0;
-			
+
 			boolean[] blArr = new boolean[26];
 			boolean bl = false;
+			
+			int prev = 0;
 			
 			for (int j=0; j<str.length(); j++) {
 				int now = str.charAt(j);
@@ -24,8 +24,8 @@ public class Bj1316 {
 				if (prev != now) {
 					if (!blArr[now - 'a']) {
 						blArr[now - 'a'] = true;
-						prev = now;
 						bl = true;
+						prev = now;
 					} else {
 						bl = false;				
 						break;
