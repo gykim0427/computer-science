@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Bj11047 {
-
 	public static void main(String[] args) throws Exception{
 		BufferedReader	br = new BufferedReader(new InputStreamReader(System.in));
 		
@@ -44,5 +43,4 @@ public class Bj11047 {
 		
 		System.out.println(cnt);	
 	}
-	
 }
