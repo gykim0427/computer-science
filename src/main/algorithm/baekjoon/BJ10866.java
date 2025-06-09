@@ -23,7 +23,6 @@ public class BJ10866 {
 			String[] s = br.readLine().split(" ");
 			
 			switch(s[0]) {
-			
 				case "push_front" : {
 					push_front(Integer.parseInt(s[1]));
 					break;
@@ -68,7 +67,6 @@ public class BJ10866 {
 		
 		System.out.println(sb);
 	}
-		
 	
 	static void push_front(int val) {
 		deque[front] = val;
@@ -86,6 +84,7 @@ public class BJ10866 {
 		if (size == 0) {
 			return -1;
 		}
+		
 		int ret = deque[front + 1];
 		front++;
 		size--;
@@ -97,6 +96,7 @@ public class BJ10866 {
 		if (size == 0) {
 			return -1;
 		} 
+		
 		int ret = deque[back];
 		back--;
 		size--;
@@ -112,6 +112,7 @@ public class BJ10866 {
 		if(size == 0) {
 			return 1;
 		}
+		
 		return 0;
 	}
 	
@@ -119,6 +120,7 @@ public class BJ10866 {
 		if(size == 0) {
 			return -1;
 		}
+		
 		return deque[front + 1];
 	}
 	
@@ -126,6 +128,7 @@ public class BJ10866 {
 		if(size == 0) {
 			return -1;
 		}
+		
 		return deque[back];
 	}
 }
