@@ -95,7 +95,7 @@ public class BJ10866 {
 	static int pop_back() {
 		if (size == 0) {
 			return -1;
-		} 
+		}
 		
 		int ret = deque[back];
 		back--;
@@ -112,7 +112,6 @@ public class BJ10866 {
 		if(size == 0) {
 			return 1;
 		}
-		
 		return 0;
 	}
 	
@@ -120,7 +119,6 @@ public class BJ10866 {
 		if(size == 0) {
 			return -1;
 		}
-		
 		return deque[front + 1];
 	}
 	
@@ -128,7 +126,6 @@ public class BJ10866 {
 		if(size == 0) {
 			return -1;
 		}
-		
 		return deque[back];
 	}
 }
