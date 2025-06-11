@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Bj10845 {
-
 	public static void main(String[] args) throws Exception {
 		Queue<Integer> queue = new LinkedList<>();
 		
@@ -18,7 +17,6 @@ public class Bj10845 {
 			String[] strArr = br.readLine().split(" ");
 			
 			switch (strArr[0]) {
-				
 				case "push" :
 					int x = Integer.parseInt(strArr[1]);
 					queue.offer(x);
@@ -29,6 +27,7 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
+					
 					break;
 				case "size" :
 					System.out.println(queue.size());
@@ -39,6 +38,7 @@ public class Bj10845 {
 					} else {
 						System.out.println("1");
 					}
+					
 					break;
 				case "front" :
 					if (!queue.isEmpty()) {
@@ -46,6 +46,7 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
+					
 					break;
 				case "back" :
 					if (!queue.isEmpty()) {
@@ -57,6 +58,7 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
+					
 					break;
 			}
 		}
