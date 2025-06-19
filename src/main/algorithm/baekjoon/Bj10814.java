@@ -7,7 +7,6 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Bj10814 {
-
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -38,5 +37,4 @@ public class Bj10814 {
 			System.out.println(arr[i][0] + " " +arr[i][1]);
 		}
 	}
-	
 }
