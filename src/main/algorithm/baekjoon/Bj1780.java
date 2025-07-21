@@ -31,7 +31,6 @@ public class Bj1780 {
 	}
 	
 	public static void recursion() {
-		
 		return;
 	}
 }
