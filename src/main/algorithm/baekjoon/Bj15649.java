@@ -12,7 +12,6 @@ public class Bj15649 {
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = Integer.parseInt(st.nextToken());
@@ -31,6 +30,7 @@ public class Bj15649 {
 			for (int val : arr) {
 				sb.append(val).append(" ");
 			}
+			
 			sb.append("\n");
 			
 			return;
