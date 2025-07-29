@@ -63,6 +63,7 @@ public class BJ10866 {
 	
 	static void push_front(int val) {
 		deque[front] = val;
+		
 		front--;
 		size++;
 	}
@@ -70,6 +71,7 @@ public class BJ10866 {
 	static void push_back(int val) {
 		back++;
 		size++;
+		
 		deque[back] = val;
 	}
 	
@@ -79,6 +81,7 @@ public class BJ10866 {
 		}
 		
 		int ret = deque[front + 1];
+		
 		front++;
 		size--;
 		
