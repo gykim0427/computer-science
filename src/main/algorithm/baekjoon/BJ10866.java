@@ -27,37 +27,30 @@ public class BJ10866 {
 					push_front(Integer.parseInt(s[1]));
 					break;
 				}
-				
 				case "push_back" : {
 					push_back(Integer.parseInt(s[1]));
 					break;
 				}
-				
 				case "pop_front" : {
 					sb.append(pop_front()).append('\n');
 					break;
 				}
-				
 				case "pop_back" : {
 					sb.append(pop_back()).append('\n');
 					break;
 				}
-				
 				case "size" : {
 					sb.append(size()).append('\n');
 					break;
 				}
-				
 				case "empty" : {
 					sb.append(empty()).append('\n');
 					break;
 				}
-				
 				case "front" : {
 					sb.append(front()).append('\n');
 					break;
 				}
-				
 				case "back" : {
 					sb.append(back()).append('\n');
 					break;
