@@ -11,6 +11,7 @@ public class BJ10866 {
 	static int front = 10000;
 	static int back = 10000;
 	static int size = 0;
+	
 	static int[] deque = new int[20001];
 	
 	public static void main(String[] args) throws Exception {
@@ -63,7 +64,6 @@ public class BJ10866 {
 	
 	static void push_front(int val) {
 		deque[front] = val;
-		
 		front--;
 		size++;
 	}
