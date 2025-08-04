@@ -81,7 +81,6 @@ public class BJ10866 {
 		}
 		
 		int ret = deque[front + 1];
-		
 		front++;
 		size--;
 		
@@ -105,21 +104,21 @@ public class BJ10866 {
 	}
 	
 	static int empty() {
-		if(size == 0) {
+		if (size == 0) {
 			return 1;
 		}
 		return 0;
 	}
 	
 	static int front() {
-		if(size == 0) {
+		if (size == 0) {
 			return -1;
 		}
 		return deque[front + 1];
 	}
 	
 	static int back() {
-		if(size == 0) {
+		if (size == 0) {
 			return -1;
 		}
 		return deque[back];
