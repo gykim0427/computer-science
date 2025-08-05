@@ -8,9 +8,7 @@ import java.util.Queue;
 public class Bj10845 {
 	public static void main(String[] args) throws Exception {
 		Queue<Integer> queue = new LinkedList<>();
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
 		int n = Integer.parseInt(br.readLine());
 		
 		for (int i=0; i<n; i++) {
