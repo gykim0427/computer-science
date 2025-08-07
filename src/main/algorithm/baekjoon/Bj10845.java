@@ -36,7 +36,6 @@ public class Bj10845 {
 					} else {
 						System.out.println("1");
 					}
-					
 					break;
 				case "front" :
 					if (!queue.isEmpty()) {
@@ -44,7 +43,6 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
-					
 					break;
 				case "back" :
 					if (!queue.isEmpty()) {
@@ -56,7 +54,6 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
-					
 					break;
 			}
 		}
