@@ -25,7 +25,6 @@ public class Bj10845 {
 					} else {
 						System.out.println("-1");
 					}
-					
 					break;
 				case "size" :
 					System.out.println(queue.size());
