@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class Bj10826 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
 		int n = sc.nextInt();
-		
 		BigInteger[] bi = new BigInteger[n+2];
 		
 		bi[0] = new BigInteger("0");
