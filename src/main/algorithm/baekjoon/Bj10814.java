@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 public class Bj10814 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		int n = Integer.parseInt(br.readLine());
 		String[][] arr = new String[n][2];
 		
