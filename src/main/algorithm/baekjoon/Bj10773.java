@@ -3,7 +3,6 @@ package main.algorithm.baekjoon;
 import java.util.Scanner;
 
 public class Bj10773 {
-
 	public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -30,5 +29,4 @@ public class Bj10773 {
 
         System.out.println(sum);
 	}
-	
 }
