@@ -6,10 +6,8 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class Bj1026 {
-
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
 		int n = Integer.parseInt(br.readLine());
 		
 		Integer[] a = new Integer[n];
@@ -37,5 +35,4 @@ public class Bj1026 {
 		
 		System.out.println(s);
 	}
-	
 }
