@@ -56,16 +56,13 @@ public class Bj1018 {
                     for (int l=j; l<j+8; l++) {
                         if (arr[k][l] != pattern1[k-i][l-j]) {
                             rectPattern1++;
-                        }
-
-                        if (arr[k][l] != pattern2[k-i][l-j]) {
+                        } if (arr[k][l] != pattern2[k-i][l-j]) {
                             rectPattern2++;
                         }
                     }
                 }
                 
                 int rects = Math.min(rectPattern1, rectPattern2);
-                
                 minNum = Math.min(minNum, rects); 
             }
         }
