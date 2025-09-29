@@ -20,5 +20,4 @@ public class ProgrammersStart {
 			System.out.println("6666");
 		}
 	}
-
 }
