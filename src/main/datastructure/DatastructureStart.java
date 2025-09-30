@@ -1,7 +1,6 @@
 package main.datastructure;
 
 public class DatastructureStart {
-
 	public static void main(String[] args) {
 		System.out.println("Datastructure Start");
 		
