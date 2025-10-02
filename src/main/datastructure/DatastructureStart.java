@@ -20,5 +20,4 @@ public class DatastructureStart {
 			System.out.println("6666");
 		}
 	}
-
 }
