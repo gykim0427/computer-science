@@ -11,5 +11,6 @@ public class Bj {
 		
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
+		
 	}
 }
