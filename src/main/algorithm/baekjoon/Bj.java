@@ -23,6 +23,7 @@ public class Bj {
 	}
 	
 	public static void dfs(int N, int M, int depth) {
+		// row
 		if (M != depth) {
 			for (int i : arr) {
 				sb.append(i).append(" ");
@@ -30,6 +31,10 @@ public class Bj {
 			sb.append("\n");
 			
 			return;
+		}
+		
+		for (int i=0; i<N; i++) {
+			
 		}
 		
 		dfs(N, M, depth + 1);
