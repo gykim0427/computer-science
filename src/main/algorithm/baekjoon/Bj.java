@@ -34,9 +34,7 @@ public class Bj {
 		}
 		
 		for (int i=0; i<N; i++) {
-			
+			dfs(N, M, depth + 1);
 		}
-		
-		dfs(N, M, depth + 1);
 	}
 }
