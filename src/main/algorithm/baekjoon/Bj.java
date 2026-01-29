@@ -24,7 +24,7 @@ public class Bj {
 	
 	public static void dfs(int N, int M, int depth) {
 		// row
-		if (M != depth) {
+		if (M == depth) {
 			for (int i : arr) {
 				sb.append(i).append(" ");
 			}
